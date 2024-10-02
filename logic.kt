@@ -23,20 +23,20 @@ fun main() {
     	weight1 = 5, value1 = 10,
     	weight2 = 4, value2 = 6,
     	maxW = 8
-	  )
+    )
     println(result)
     
     result = findMaxValue(
     	weight1 = 5, value1 = 10,
     	weight2 = 4, value2 = 6,
     	maxW = 9
-	  )
+    )
     println(result)
     
     result = findMaxValue(
     	weight1 = 3, value1 = 5,
     	weight2 = 4, value2 = 7,
     	maxW = 6
-	  )
+    )
     println(result)
 }
