@@ -14,10 +14,10 @@ jarsigner -verbose \
 `apksigner` is located in `/Library/Android/sdk/build-tools`
 ```
 apksigner sign \
-  --ks [keystore path] \
-  --ks-key-alias [key alias] \
-  --ks-pass pass:[password] \
-  --key-pass pass:[password] \
-  --out [output path] \
-  [input path]
+  --ks '[keystore path]' \
+  --ks-key-alias '[key alias]' \
+  --ks-pass pass:'[password]' \
+  --key-pass pass:'[password]' \
+  --out '[output path]' \
+  '[input path]'
 ```
